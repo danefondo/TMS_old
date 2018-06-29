@@ -1,0 +1,1 @@
+Simple JS based implementation where using jQuery's .append() function, the contents of the input form are first put inside a paragraph (so if the function is used more than once, it has something to separate the content), and then gets added inside a div when the submit button is clicked.

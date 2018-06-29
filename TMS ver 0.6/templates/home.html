@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/reset.css') }}">
+	  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	  <script src="{{ url_for('static', filename='js/function.js') }}"></script>
+	  <script src="{{ url_for('static', filename='js/onload.js') }}"></script>
+</head>
+<body>
+
+<div id="TMS">
+<h1 id="TMS-title">Task Management System 0.5</h1>
+	<div id="taskarea">
+	</div>
+
+	<div>
+		<h2 id="add-title">Add task:</h2>
+	<form>
+		<input type="text" name="tasked" id="taskname">
+		<button name="submittask" id="tasksubmit">Submit</button>
+	</form>
+	</div>
+
+<div id="successAlert" style="display: none;"></div>
+<div id="errorAlert" style="display: none;"></div>
+
+
+
+<button name="buttonname" id="buttonid">Get my tasks</button>
+<div id="testanswer" style="display: none;"></div>
+<div id="testanswer2" style="display: none;"></div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/functions.js') }}"></script>
+</body>
+</html>

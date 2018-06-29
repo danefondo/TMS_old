@@ -1,0 +1,102 @@
+body {
+	font-family: "Helvetica", sans-serif;
+	display: block;
+}
+
+
+p {
+	font-weight: bold;
+}
+
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-text-fill-color: #fff !important;
+    background-color: transparent;
+}
+
+input {
+	border: 1px solid #e6e6e6;
+}
+
+#TMS {
+	width: 300px;
+	margin: 0px auto;
+}
+
+#TMS-title {
+	background-color: #b70000;
+	padding: 15px;
+	color: #fff;
+	border-bottom: 9px solid #920606;
+}
+
+#add-title {
+	padding: 15px;
+}
+
+#taskname {
+	padding: 10px;
+}
+
+#taskname, #buttonid, #testanswer {
+	margin-left: 15px;
+}
+
+#tasksubmit, #buttonid {
+	padding: 10px 15px;
+}
+
+#taskarea {
+	background-color: #262e4c;
+}
+
+#taskarea p, li {
+	color: #f2f2f2;
+	padding: 6px 15px;
+	list-style: none;
+}
+
+#successAlert {
+	padding-left: 15px;
+}
+
+button#tasksubmit {
+	border: none;
+	border-color: transparent;
+	background-color: #b70000;
+	color: #fff;
+}
+
+button#tasksubmit:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+button#buttonid{
+	border: none;
+	border-color: transparent;
+	background-color: #b70000;
+	color: #fff;
+	margin-top: 10px;
+	width: 145px;
+}
+
+button#buttonid:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+input:focus, select:focus, textarea:focus, button:focus, [contenteditable="true"]:focus {
+	outline:none;
+}
